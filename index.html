@@ -7,7 +7,65 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header id="home" class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#menu">Menu</a>
+          </li>
+          <li>
+            <a class="header__link" href="#review">Reviews</a>
+          </li>
+          <li class="header__line"></li>
+        </ul>
+        <button aria-label="Mobile-menu-button" class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+              clip-rule="evenodd" />
+          </svg>
+        </button>
+      </nav>
+      <h1 class="header__logo">MAKS</h1>
+      <div class="header__info">
+        <span>(252) 244-0636</span>
+        <button class="btn1"><a href="#">Contact</a></button>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm280-240q83 0 141.5-58.5T680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z"/></svg>
+      </div>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#menu">Menu</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <hr>
+      <div class="mobile-header__info">
+        <span>(252) 244-0636</span>
+        <button class="btn1"><a href="#">Contact</a></button>
+        <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#e8eaed"><path d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm280-240q83 0 141.5-58.5T680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z"/></svg>
+      </div>
+    </div>
+    <!--End Of Mobile Navigation  -->
+
+
+    <main>
+      <section class="section container">
+        <h1>Hello</h1>
+      </section>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
