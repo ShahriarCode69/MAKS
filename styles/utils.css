@@ -66,6 +66,17 @@
   color: var(--clr-dark);
 }
 
+#cursor {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--clr-light);
+  position: fixed;
+  mix-blend-mode:difference;
+  opacity: 0;
+  z-index: 99999999999;
+}
+
 
 .container {
   width: 100%;
